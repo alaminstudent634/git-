@@ -1,0 +1,14 @@
+INSERT INTO users(user_name,age,phone,adddress)
+VALUES ('Alamin','22','01879149295','Rupatoli,Barishal')
+
+
+
+INSERT INTO users(user_name,age,phone,adddress)
+VALUES ('Alamin','22','01879149295','Rupatoli,Barishal'),('Asraful','21','01780049424','Rupatoli,Barishal'),('Sefat','22','01879149295','Rupatoli,Barishal')
+
+
+
+
+UPDATE 'users" SET 'user_name'='Asraful' WHERE 1
+
+DELETE FROM 'users' WHERE 1
