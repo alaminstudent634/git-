@@ -1,0 +1,20 @@
+=======Find users who live in same country =========
+SELECT * FROM `users` WHERE `country` ='Bangladesh' 
+
+======Show data  by high to low salary==============
+SELECT * FROM `users` ORDER BY `salary` DESC;
+
+======Show data who get the highest salary==============
+SELECT `username`,`age`,`phone`,`address`,MAX(`salary`),`country` FROM `users`;
+
+
+======Show data who get the lowest==============
+SELECT `username`,`age`,`phone`,`address`,MIN(`salary`),`country` FROM `users`;
+
+
+======Show how many table you have ==============
+SELECT COUNT(*) FROM `users`;
+
+
+======Show data who get the highest salary===========
+SELECT * FROM `users` WHERE `salary` BETWEEN 5000 and 15000;
